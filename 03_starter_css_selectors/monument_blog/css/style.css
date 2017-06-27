@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
