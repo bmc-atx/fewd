@@ -138,6 +138,7 @@ Main section
 main {
 	max-width: 1160px;
 	margin: 40px auto;
+	padding: 0 24px;
 }
 
 .flexContent {
