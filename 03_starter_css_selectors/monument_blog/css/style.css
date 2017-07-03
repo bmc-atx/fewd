@@ -27,8 +27,7 @@ h1, h2, h3 {
 h1 {
 	text-align: center;
 	margin: auto;
-	line-height: 296px;
-	padding-top: 32px;
+	padding-top: 64px;
 }
 
 h2 {
@@ -67,18 +66,18 @@ footer p a {
 }
 
 footer p a:hover {
-	color: #2962FF;
+	color: #a25e59;
 }
 
 footer a {
 	display: inline-block;
 	text-align: center;
-	margin: 16px;
+	margin: 0 16px;
 	color: #44545E;
 }
 
 footer a:hover {
-	color: #2962FF;
+	color: #a25e59;
 }
 
 h1 a {
@@ -129,6 +128,9 @@ header {
 	background-image: url("../images/blog_header_bg.jpg");
 	background-size: cover;
 	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 /*
@@ -194,7 +196,7 @@ footer p {
 
 .inputDiv {
 	text-align: center;
-	margin: 16px auto 32px;
+	margin: 32px auto;
 	display: flex;
 	justify-content: space-around;
 	max-width: 560px;
@@ -215,9 +217,10 @@ footer p {
 	display: inline-block;
 	text-align: center;
 	color: #44545E;
+	font-weight: 500;
 	text-transform: uppercase;
 	background: none;
 	padding: 8px;
-	border: 1px solid #44545E;
+	border: 2px solid #44545E;
 	width: 35%;
 }
