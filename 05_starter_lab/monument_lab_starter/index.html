@@ -7,17 +7,19 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<!-- I initially thought two of the bonus tasks might require a jquery solution. I'm simply keeping the code in comment here so I can refer back to this work later.
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 
 </head>
 <body>
-
-
-	<nav>
-		<a href="">About</a>
-		<a href="">Gallery</a>
-		<a href="">Blog</a>
-		<a href="">Contact</a>
-	</nav>
+	<div class="navbar">
+		<nav>
+			<a href="">About</a>
+			<a href="">Gallery</a>
+			<a href="">Blog</a>
+			<a href="">Contact</a>
+		</nav>
+	</div>
 
 	<header>
 		<h1>Monument</h1>
@@ -55,7 +57,7 @@
 		</div>
 
 
-		<aside class="">
+		<aside class="about">
 
 			<h2>About The Magazine</h2>
 			<h3>A Lifestyle Magazine Crafted with Love</h3>
@@ -64,22 +66,22 @@
 			</aside>
 
 
-			<div class="">
+			<div class="spotlightSection">
+				<div class="spotlightHeading">
+					<h2>Issue Twenty</h2>
+					<h3>A visual guide to the Southwest</h3>
+				</div>
 
-				<h2>Issue Twenty</h2>
-
-				<h3>A visual guide to the Southwest</h3>
-
-				<section>
-					<div class="">
+				<section class="spotlightFlex">
+					<div class="spotlightPhotos">
 						<img src="images/gallery_1.jpg" alt="">
 						<img src="images/gallery_3.jpg" alt="">
 					</div>
-					<div class="">
+					<div class="spotlightPhotos">
 						<img src="images/gallery_4.jpg" alt="">
 						<img src="images/gallery_2.jpg" alt="">
 					</div>
-					<div class="">
+					<div class="spotlightPhotos">
 						<img src="images/gallery_5.jpg" alt="">
 						<img src="images/gallery_6.jpg" alt="">
 					</div>
@@ -89,16 +91,35 @@
 		</main>
 
 		<footer>
+			<div class="socialMedia">
+				<a href=""><i class="fa fa-facebook-square fa-2x"></i></a>
+				<a href=""><i class="fa fa-twitter-square fa-2x"></i></a>
+				<a href=""><i class="fa fa-instagram fa-2x"></i></a>
+			</div>
+
+			<div class="inputDiv">
+				<input class="footerInput" type="text" placeholder="email address">
+				<button class="footerButton" name="button">subscribe</button>
+			</div>
 
 
-			<!-- Insert FontAwesome Icons -->
 
-			<!-- I've given you this one, but look it up to see what it's used for :) -->
-			<input type="text" placeholder="Email Address">
-			Subscribe
-
-			&copy;2016 Sarah Holden
+			<p>&copy;2016 Sarah Holden</p>
 		</footer>
+
+		<!-- I initially thought two of the bonus tasks might require a jquery solution. I'm simply keeping the code in comment here so I can refer back to this work later.
+		<script>
+		$("button").on("click", function(){
+			$(this).addClass("buttonClicked");
+		});
+		$(window).on("scroll", function(){
+				if ($(document).scrollTop() > 50) {
+					$("header").addClass("shrinkHeader");
+			} else {
+				$("header").removeClass("shrinkHeader");
+			}
+		});
+		</script> -->
 
 	</body>
 	</html>

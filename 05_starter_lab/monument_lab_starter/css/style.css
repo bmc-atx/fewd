@@ -5,7 +5,6 @@ Base Styles
 *	{
 	box-sizing: border-box;
 }
-
 body {
 	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
@@ -13,6 +12,7 @@ body {
 	color: #44545E;
 	font-weight: 600;
 	margin: 0;
+	background: #FAFAFA;
 }
 /* ----------------------------------------
 Typography
@@ -24,12 +24,17 @@ h1 {
 }
 h2 {
 	font-size: 23px;
+	margin: 16px auto;
 }
 header h2 {
 	color: #FFFFFF;
 }
 h3 {
 	font-size: 18px;
+	margin: 0 auto 16px;
+}
+div.spotlightSection h3 {
+	margin-top: 32px;
 }
 p {
 	font-family: "Lato", serif;
@@ -62,53 +67,149 @@ nav {
 	display: flex;
 	justify-content: space-between;
 }
-
-
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #FAFAFA;
+	display: flex;
+	justify-content: center;
+	z-index: 999;
+}
 /* ----------------------------------------
 Layout
 ------------------------------------------- */
 main {
-	margin: 40px 24px 0;
+	margin: 104px 0 0;
 }
 img {
 	width: 100%;
-	object-fit: contain;
+	margin-bottom: 16px;
 }
-
 .archive {
-	margin: 40px auto 0;
+	margin: 40px 24px 0;
 	padding: 0 24px;
 }
 .archiveFlex {
 	display: flex;
 	justify-content: space-around;
+	align-items: stretch;
 }
 .archiveArticle {
 	margin: 40px 0 0;
 	width: 30%;
 	padding: 0 24px;
 }
+.about {
+	margin: 56px 0 0;
+	min-height: 480px;
+	background-color: #CDF3F6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+aside p {
+	max-width: 760px;
+	margin: 16px auto 0;
+}
+.spotlightSection {
+	margin-top: 56px;
+	padding: 24px;
+}
+.spotlightHeading {
+	margin: 56px auto;
+}
+.spotlightFlex {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.spotlightPhotos {
+	width: 30%;
+	padding: 0 8px;
+}
+div.spotlightPhotos img:hover {
+	opacity: .6;
+}
 
 /* ----------------------------------------
 Header
 ------------------------------------------- */
 header {
-	min-height: 840px;
+	height: 720px;
 	background-image: url("../images/home_header_bg.jpg");
-	background-position: center;
+	background-position:center top;
 	background-size: cover;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	background-attachment: fixed;
 }
-
 /* ----------------------------------------
 Buttons
 ------------------------------------------- */
-
-
+button {
+	color: #44545E;
+	font-weight: 500;
+	text-transform: uppercase;
+	background: none;
+	padding: 8px;
+	border: 2px solid #44545E;
+}
+article button {
+	margin-top: 24px;
+	min-width: 140px;
+}
+button:hover {
+	background-color: #44545E;
+	color: #FFFFFF;
+}
 
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
+footer {
+	margin: 24px 0 0 0;
+	background: #CDF3F6;
+	padding: 16px 0;
+}
+footer p {
+	padding: 16px 0 0 0;
+	margin-bottom: 0;
+	border-top: 2px solid #44545E;
+}
+.socialMedia {
+	text-align: center;
+	margin: 16px auto;
+	font-size: 24px;
+}
+div.socialMedia a {
+	color: #44545E;
+}
+div.socialMedia a:hover {
+ color: #a25e59;
+}
+.inputDiv {
+	text-align: center;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-around;
+	max-width: 560px;
+}
+.footerInput {
+	text-align: center;
+	color: #7a858c;
+	text-transform: uppercase;
+	padding: 8px;
+	border: none;
+	width: 55%;
+}
+.footerButton {
+	width: 35%;
+}
