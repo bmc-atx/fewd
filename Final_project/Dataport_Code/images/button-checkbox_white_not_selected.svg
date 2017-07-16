@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Button-checkboxWhiteSelected-false</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttons-and-tabs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button-checkboxWhiteSelected-false">
+            <g id="Button/checkbox-white/selected/false">
+                <g>
+                    <rect id="Radio-button-touch-zone" x="0" y="0" width="48" height="48" rx="4"></rect>
+                    <rect id="Radio-button" fill="#FFFFFF" x="9" y="9" width="30" height="30" rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

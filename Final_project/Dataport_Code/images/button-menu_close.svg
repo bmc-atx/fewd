@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Button-close menu@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button-close-menu">
+            <rect id="Radio-button-touch-zone" x="0" y="0" width="48" height="48" rx="4"></rect>
+            <g id="Close-icon" transform="translate(24.000000, 24.000000) rotate(-270.000000) translate(-24.000000, -24.000000) translate(12.000000, 12.000000)" fill="#8E8E93">
+                <polygon id="Line" points="24 22.2150334 1.85920093 0 -1.77635684e-15 1.78496658 22.1407991 24"></polygon>
+                <polygon id="Line" points="1.85920093 24 24 1.78496658 22.1407991 0 -1.77635684e-15 22.2150334"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

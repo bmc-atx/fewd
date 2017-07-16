@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.618;
+  margin: 0;
+	background-color: #fafafa;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #FF5722;
+}
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+  color: #FF5722;
+}
+
+/* ----------------------------------------
+Classes for typography
+------------------------------------------- */
+.orangeText {
+  color: #FF5722;
+}
+
+.blueText {
+  color: #2196F3;
+}
+
+/* ----------------------------------------
+Layout objects
+------------------------------------------- */
+.iconButton {
+  height: 48px;
+  width: 48px;
+	background: transparent;
+	border: none;
+}
+.buttonImage {
+	max-width: 100%;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+	padding: 8px 16px;
+	display: flex;
+	justify-content: space-between;
+}

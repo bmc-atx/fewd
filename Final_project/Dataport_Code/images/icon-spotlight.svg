@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-48 pt-spotlight</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="44" height="44"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="12.7700005" cy="13.3999996" r="12.5"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25" height="25" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Logos-and-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-48-pt-spotlight">
+            <g id="Icon/48-pt/spotlight">
+                <rect id="Container" x="0" y="0" width="48" height="48"></rect>
+                <g id="Icon-spotlight" stroke-width="1" fill-rule="evenodd" transform="translate(2.000000, 2.000000)">
+                    <use id="Rectangle-1" stroke="#2196F3" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                    <g id="Graph" transform="translate(14.000000, 16.000000)" fill="#FF5722" fill-opacity="0.6">
+                        <rect id="Right-bar" x="12" y="6" width="3" height="5"></rect>
+                        <rect id="Middle-bar" x="6" y="0" width="3" height="11"></rect>
+                        <rect id="Left-bar" x="0" y="4.0000248" width="3" height="7"></rect>
+                    </g>
+                    <g id="Search-lens" transform="translate(9.000000, 9.000000)">
+                        <path d="M21.1472,21.1338 L21.5306,21.1122 L21.788,21.2688 L27.0908,26.5716 C27.3842,26.865 27.3374,27.387 26.9846,27.738 C26.6336,28.0908 26.1116,28.1376 25.8182,27.8442 L20.5154,22.5414 C20.222,22.248 20.2706,21.726 20.6216,21.375 C20.9438,21.1392 20.7692,21.222 21.1472,21.1338 L21.1472,21.1338 Z" id="Shape" fill="#2196F3"></path>
+                        <use id="Oval-1" stroke="#2196F3" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

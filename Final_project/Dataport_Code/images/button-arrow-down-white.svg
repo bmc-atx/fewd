@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Button-arrowDown-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttons-and-tabs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button-arrowDown-white">
+            <g id="Button/arrow/down/white">
+                <rect id="Rectangle" x="0" y="0" width="48" height="48" rx="4"></rect>
+                <polygon id="down-arrow-large" fill="#FFFFFF" fill-rule="evenodd" points="28.59 20 24 24.3265857 19.41 20 18 21.3319838 24 27 30 21.3319838"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
