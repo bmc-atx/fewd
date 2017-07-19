@@ -1,25 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon-48 pt-advanced_access</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Logos-and-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon-48-pt-advanced_access">
-            <g id="Icon/48-pt/advanced-access">
-                <g id="Icon-database-search">
-                    <rect id="Container" x="0" y="0" width="48" height="48"></rect>
-                    <g id="Shape" transform="translate(4.000000, 4.000000)" stroke="#2196F3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M30.0527,35.9473 L23.9997,42.0003" id="Stroke-396"></path>
-                        <path d="M28,4 C28,6.258 22.101,8 14,8 C5.9,8 0,6.258 0,4 C0,1.742 5.899,0 13.999,0 C22.101,0 28,1.742 28,4 L28,4 Z" id="Stroke-397"></path>
-                        <path d="M28,12 C28,14.258 22.101,16 14,16 C5.9,16 0,14.258 0,12" id="Stroke-398"></path>
-                        <path d="M28,20 C28,22.258 22.101,24 14,24 C5.9,24 0,22.258 0,20" id="Stroke-399"></path>
-                        <path d="M28,22.524 L28,4" id="Stroke-400"></path>
-                        <path d="M0,4 L0,28 C0,30.258 5.9,32 14,32 C18.03,32 21.516,31.569 24.001,30.857" id="Stroke-401"></path>
-                        <path d="M42,31 C42,27.134 38.866,24 35,24 C31.134,24 28,27.134 28,31 C28,34.866 31.134,38 35,38 C38.866,38 42,34.866 42,31 L42,31 Z" id="Stroke-402"></path>
-                    </g>
-                </g>
-            </g>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="48" height="48"/>
+    <g>
+      <rect width="48" height="48"/>
+      <g stroke="#2196F3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(4 4)">
+        <path d="M30.0527 35.9473L23.9997 42.0003M28 4C28 6.258 22.101 8 14 8 5.9 8 0 6.258 0 4 0 1.742 5.899 0 13.999 0 22.101 0 28 1.742 28 4L28 4zM28 12C28 14.258 22.101 16 14 16 5.9 16 0 14.258 0 12M28 20C28 22.258 22.101 24 14 24 5.9 24 0 22.258 0 20M28 22.524L28 4"/>
+        <path d="M0 4L0 28C0 30.258 5.9 32 14 32 18.03 32 21.516 31.569 24.001 30.857M42 31C42 27.134 38.866 24 35 24 31.134 24 28 27.134 28 31 28 34.866 31.134 38 35 38 38.866 38 42 34.866 42 31L42 31z"/>
+      </g>
     </g>
+  </g>
 </svg>

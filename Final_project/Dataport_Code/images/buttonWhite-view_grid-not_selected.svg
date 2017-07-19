@@ -1,43 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>ButtonWhite-viewGrid-selected_false</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="48" height="48" rx="5"></rect>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="48" height="48" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <rect id="path-3" x="0" y="0" width="10" height="10"></rect>
-        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
-            <use xlink:href="#path-3"></use>
-        </mask>
-        <rect id="path-5" x="14" y="0" width="10" height="10"></rect>
-        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
-            <use xlink:href="#path-5"></use>
-        </mask>
-        <rect id="path-7" x="0" y="14" width="10" height="10"></rect>
-        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
-            <use xlink:href="#path-7"></use>
-        </mask>
-        <rect id="path-9" x="14" y="14" width="10" height="10"></rect>
-        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
-            <use xlink:href="#path-9"></use>
-        </mask>
-    </defs>
-    <g id="Buttons-and-tabs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.5">
-        <g id="ButtonWhite-viewGrid-selected_false" stroke="#FFFFFF">
-            <g id="ButtonWhite/view/grid/selected/false">
-                <g id="Grid-view-deselected">
-                    <use id="Container" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
-                    <g id="Grid" transform="translate(12.000000, 12.000000)" stroke-width="4">
-                        <use id="Rectangle-1-1" mask="url(#mask-4)" xlink:href="#path-3"></use>
-                        <use id="Rectangle-1-2" mask="url(#mask-6)" xlink:href="#path-5"></use>
-                        <use id="Rectangle-2-1" mask="url(#mask-8)" xlink:href="#path-7"></use>
-                        <use id="Rectangle-2-2" mask="url(#mask-10)" xlink:href="#path-9"></use>
-                    </g>
-                </g>
-            </g>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-opacity=".5">
+    <rect width="46" height="46" x="1" y="1" stroke-width="2" rx="5"/>
+    <g stroke-width="2" transform="translate(12 12)">
+      <rect width="8" height="8" x="1" y="1"/>
+      <rect width="8" height="8" x="15" y="1"/>
+      <rect width="8" height="8" x="1" y="15"/>
+      <rect width="8" height="8" x="15" y="15"/>
     </g>
+  </g>
 </svg>

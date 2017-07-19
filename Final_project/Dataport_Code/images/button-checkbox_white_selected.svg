@@ -1,18 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Button-checkboxWhiteSelected-true</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Buttons-and-tabs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Button-checkboxWhiteSelected-true">
-            <g id="Button/checkbox-white/selected/true">
-                <g>
-                    <rect id="Radio-button-touch-zone" x="0" y="0" width="48" height="48" rx="4"></rect>
-                    <rect id="Radio-button" fill="#FFFFFF" x="9" y="9" width="30" height="30" rx="4"></rect>
-                    <polygon id="Checkmark_14_-path" stroke="#2196F3" fill="#2196F3" points="31.0611806 18 21.8494918 27.2116888 17.9282643 23.2898749 17 24.2181392 21.8606333 29.0793589 32 18.9394058"></polygon>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="48" height="48" rx="4"/>
+    <rect width="30" height="30" x="9" y="9" fill="#FFF" rx="4"/>
+    <polygon fill="#2196F3" stroke="#2196F3" points="31.061 18 21.849 27.212 17.928 23.29 17 24.218 21.861 29.079 32 18.939"/>
+  </g>
 </svg>

@@ -1,15 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Button-arrowUp-active</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Buttons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Button-arrowUp-active">
-            <g id="Button/arrow/up/active">
-                <rect id="Rectangle" x="0" y="0" width="48" height="48" rx="4"></rect>
-                <polygon id="Up-arrow" fill-opacity="0.38" fill="#000000" fill-rule="evenodd" transform="translate(24.000000, 23.705000) scale(1, -1) translate(-24.000000, -23.705000) " points="28.59 20 24 24.58 19.41 20 18 21.41 24 27.41 30 21.41"></polygon>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="48" height="48" rx="4"/>
+    <polygon fill="#000" fill-opacity=".38" points="28.59 20 24 24.327 19.41 20 18 21.332 24 27 30 21.332" transform="matrix(1 0 0 -1 0 47)"/>
+  </g>
 </svg>
