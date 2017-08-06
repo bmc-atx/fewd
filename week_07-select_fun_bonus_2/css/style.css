@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Monoton');;
 
 /******************************************
 /* BASE STYLES
@@ -28,7 +28,7 @@ header {
 }
 
 #boxes {
-  margin: 20px;
+  margin: 16px;
 }
 
 #boxes section {
@@ -40,7 +40,7 @@ header {
 
 section article,
 section div {
-  width: 24%;
+  width: 22%;
   border: 2px solid #29ABE2;
   padding: 10px;
 }
@@ -81,9 +81,10 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 .snazzy {
-
+font-family: 'Lobster', cursive;
 }
 
 .fun {
-
+font-size: 21px;
+font-family: 'Monoton', cursive;
 }
